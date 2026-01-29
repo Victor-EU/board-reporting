@@ -1,9 +1,3 @@
-databases:
-  - name: board-reporting-db
-    plan: free
-    databaseName: board_reporting
-    user: board_reporting
-
 services:
   - type: web
     name: board-reporting
@@ -16,6 +10,4 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_URL
-        fromDatabase:
-          name: board-reporting-db
-          property: connectionString
+        value: postgresql://telbase:cfUL4IQm417e8fcWm8u5WlnSWYAwVa9j@dpg-d5t2givfte5s73co7ak0-a/telbase
