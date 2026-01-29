@@ -1,0 +1,21 @@
+databases:
+  - name: board-reporting-db
+    plan: free
+    databaseName: board_reporting
+    user: board_reporting
+
+services:
+  - type: web
+    name: board-reporting
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npx prisma generate && npm run build
+    startCommand: npm run db:migrate && npm run db:seed && npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: board-reporting-db
+          property: connectionString
