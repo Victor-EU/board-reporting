@@ -1,0 +1,1057 @@
+{
+  "businessUnits": [
+    {
+      "name": "PDF Tools",
+      "slug": "pdf-tools",
+      "displayOrder": 1
+    },
+    {
+      "name": "Smallpdf (Exc. Sign)",
+      "slug": "smallpdf",
+      "displayOrder": 2
+    },
+    {
+      "name": "Sign.com",
+      "slug": "sign",
+      "displayOrder": 3
+    },
+    {
+      "name": "Group",
+      "slug": "group",
+      "displayOrder": 4
+    }
+  ],
+  "metrics": [
+    {
+      "name": "ARR",
+      "slug": "arr",
+      "category": "revenue",
+      "isPercentage": false,
+      "displayOrder": 1
+    },
+    {
+      "name": "Revenues",
+      "slug": "revenues",
+      "category": "revenue",
+      "isPercentage": false,
+      "displayOrder": 2
+    },
+    {
+      "name": "Gross Profit",
+      "slug": "gross-profit",
+      "category": "profit",
+      "isPercentage": false,
+      "displayOrder": 3
+    },
+    {
+      "name": "Gross Profit Margin",
+      "slug": "gross-profit-margin",
+      "category": "profit",
+      "isPercentage": true,
+      "displayOrder": 4
+    },
+    {
+      "name": "Contribution Margin",
+      "slug": "contribution-margin",
+      "category": "profit",
+      "isPercentage": false,
+      "displayOrder": 5
+    },
+    {
+      "name": "Contribution Margin %",
+      "slug": "contribution-margin-pct",
+      "category": "profit",
+      "isPercentage": true,
+      "displayOrder": 6
+    },
+    {
+      "name": "Operating Expenses",
+      "slug": "opex",
+      "category": "expense",
+      "isPercentage": false,
+      "displayOrder": 7
+    },
+    {
+      "name": "EBITDA",
+      "slug": "ebitda",
+      "category": "profit",
+      "isPercentage": false,
+      "displayOrder": 8
+    },
+    {
+      "name": "EBITDA Margin",
+      "slug": "ebitda-margin",
+      "category": "profit",
+      "isPercentage": true,
+      "displayOrder": 9
+    }
+  ],
+  "financialData": [
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "arr",
+      "year": 2023,
+      "month": 0,
+      "value": 7.3
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "arr",
+      "year": 2024,
+      "month": 0,
+      "value": 7.8464
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "arr",
+      "year": 2025,
+      "month": 0,
+      "value": 10.1782
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "arr",
+      "year": 2025,
+      "month": -1,
+      "value": 10.2587
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "revenues",
+      "year": 2023,
+      "month": 0,
+      "value": 7.3166
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "revenues",
+      "year": 2024,
+      "month": 0,
+      "value": 7.817
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "revenues",
+      "year": 2025,
+      "month": 0,
+      "value": 9.3733
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "revenues",
+      "year": 2025,
+      "month": -1,
+      "value": 9.5969
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "gross-profit",
+      "year": 2023,
+      "month": 0,
+      "value": 7.0169
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "gross-profit",
+      "year": 2024,
+      "month": 0,
+      "value": 7.5491
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "gross-profit",
+      "year": 2025,
+      "month": 0,
+      "value": 8.9346
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "gross-profit",
+      "year": 2025,
+      "month": -1,
+      "value": 9.1805
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "gross-profit-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 0.95904
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "gross-profit-margin",
+      "year": 2024,
+      "month": 0,
+      "value": 0.965718
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "gross-profit-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 0.953196
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "gross-profit-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 0.9566
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "contribution-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 5.1756
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "contribution-margin",
+      "year": 2024,
+      "month": 0,
+      "value": 5.947
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "contribution-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 7.2812
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "contribution-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 6.7715
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "contribution-margin-pct",
+      "year": 2023,
+      "month": 0,
+      "value": 0.707384
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "contribution-margin-pct",
+      "year": 2024,
+      "month": 0,
+      "value": 0.760779
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "contribution-margin-pct",
+      "year": 2025,
+      "month": 0,
+      "value": 0.776804
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "contribution-margin-pct",
+      "year": 2025,
+      "month": -1,
+      "value": 0.7056
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "opex",
+      "year": 2023,
+      "month": 0,
+      "value": 6.6557
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "opex",
+      "year": 2024,
+      "month": 0,
+      "value": 6.2904
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "opex",
+      "year": 2025,
+      "month": 0,
+      "value": 6.4016
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "opex",
+      "year": 2025,
+      "month": -1,
+      "value": 6.158
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "ebitda",
+      "year": 2023,
+      "month": 0,
+      "value": -1.48
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "ebitda",
+      "year": 2024,
+      "month": 0,
+      "value": -0.34337
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "ebitda",
+      "year": 2025,
+      "month": 0,
+      "value": 0.879636
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "ebitda",
+      "year": 2025,
+      "month": -1,
+      "value": 0.6134
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "ebitda-margin",
+      "year": 2023,
+      "month": 0,
+      "value": -0.202286
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "ebitda-margin",
+      "year": 2024,
+      "month": 0,
+      "value": -0.043926
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "ebitda-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 0.093845
+    },
+    {
+      "businessUnit": "pdf-tools",
+      "metric": "ebitda-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 0.0639
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "arr",
+      "year": 2023,
+      "month": 0,
+      "value": 26.861
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "arr",
+      "year": 2024,
+      "month": 0,
+      "value": 27.6664
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "arr",
+      "year": 2025,
+      "month": 0,
+      "value": 32.2268
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "arr",
+      "year": 2025,
+      "month": -1,
+      "value": 32.9235
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "revenues",
+      "year": 2023,
+      "month": 0,
+      "value": 28.9551
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "revenues",
+      "year": 2024,
+      "month": 0,
+      "value": 27.2769
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "revenues",
+      "year": 2025,
+      "month": 0,
+      "value": 30.7011
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "revenues",
+      "year": 2025,
+      "month": -1,
+      "value": 29.3738
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "gross-profit",
+      "year": 2023,
+      "month": 0,
+      "value": 25.07
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "gross-profit",
+      "year": 2024,
+      "month": 0,
+      "value": 23.5996
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "gross-profit",
+      "year": 2025,
+      "month": 0,
+      "value": 27.1749
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "gross-profit",
+      "year": 2025,
+      "month": -1,
+      "value": 24.9479
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "gross-profit-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 0.865825
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "gross-profit-margin",
+      "year": 2024,
+      "month": 0,
+      "value": 0.865185
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "gross-profit-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 0.885142
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "gross-profit-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 0.8493
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "contribution-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 22.3455
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "contribution-margin",
+      "year": 2024,
+      "month": 0,
+      "value": 20.5182
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "contribution-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 24.2387
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "contribution-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 21.6469
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "contribution-margin-pct",
+      "year": 2023,
+      "month": 0,
+      "value": 0.771731
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "contribution-margin-pct",
+      "year": 2024,
+      "month": 0,
+      "value": 0.752219
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "contribution-margin-pct",
+      "year": 2025,
+      "month": 0,
+      "value": 0.789506
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "contribution-margin-pct",
+      "year": 2025,
+      "month": -1,
+      "value": 0.7369
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "opex",
+      "year": 2023,
+      "month": 0,
+      "value": 12.1431
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "opex",
+      "year": 2024,
+      "month": 0,
+      "value": 9.8144
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "opex",
+      "year": 2025,
+      "month": 0,
+      "value": 10.2203
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "opex",
+      "year": 2025,
+      "month": -1,
+      "value": 10.4824
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "ebitda",
+      "year": 2023,
+      "month": 0,
+      "value": 10.2024
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "ebitda",
+      "year": 2024,
+      "month": 0,
+      "value": 10.7039
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "ebitda",
+      "year": 2025,
+      "month": 0,
+      "value": 14.0185
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "ebitda",
+      "year": 2025,
+      "month": -1,
+      "value": 11.1645
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "ebitda-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 0.352353
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "ebitda-margin",
+      "year": 2024,
+      "month": 0,
+      "value": 0.392415
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "ebitda-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 0.456611
+    },
+    {
+      "businessUnit": "smallpdf",
+      "metric": "ebitda-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 0.3801
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "arr",
+      "year": 2023,
+      "month": 0,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "arr",
+      "year": 2024,
+      "month": 0,
+      "value": 0.030537
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "arr",
+      "year": 2025,
+      "month": 0,
+      "value": 0.585373
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "arr",
+      "year": 2025,
+      "month": -1,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "revenues",
+      "year": 2023,
+      "month": 0,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "revenues",
+      "year": 2024,
+      "month": 0,
+      "value": 0.015966
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "revenues",
+      "year": 2025,
+      "month": 0,
+      "value": 0.475056
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "revenues",
+      "year": 2025,
+      "month": -1,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "gross-profit",
+      "year": 2023,
+      "month": 0,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "gross-profit",
+      "year": 2024,
+      "month": 0,
+      "value": -0.01058
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "gross-profit",
+      "year": 2025,
+      "month": 0,
+      "value": 0.341476
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "gross-profit",
+      "year": 2025,
+      "month": -1,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "gross-profit-margin",
+      "year": 2024,
+      "month": 0,
+      "value": -0.662699
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "gross-profit-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 0.718811
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "contribution-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "contribution-margin",
+      "year": 2024,
+      "month": 0,
+      "value": -0.218371
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "contribution-margin",
+      "year": 2025,
+      "month": 0,
+      "value": -0.409742
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "contribution-margin",
+      "year": 2025,
+      "month": -1,
+      "value": -0.6659
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "contribution-margin-pct",
+      "year": 2024,
+      "month": 0,
+      "value": -13.6776
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "contribution-margin-pct",
+      "year": 2025,
+      "month": 0,
+      "value": -0.862513
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "opex",
+      "year": 2023,
+      "month": 0,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "opex",
+      "year": 2024,
+      "month": 0,
+      "value": 1.0421
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "opex",
+      "year": 2025,
+      "month": 0,
+      "value": 0.810671
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "opex",
+      "year": 2025,
+      "month": -1,
+      "value": 1.0866
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "ebitda",
+      "year": 2023,
+      "month": 0,
+      "value": 0.0
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "ebitda",
+      "year": 2024,
+      "month": 0,
+      "value": -1.2605
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "ebitda",
+      "year": 2025,
+      "month": 0,
+      "value": -1.2204
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "ebitda",
+      "year": 2025,
+      "month": -1,
+      "value": -1.7525
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "ebitda-margin",
+      "year": 2024,
+      "month": 0,
+      "value": -78.9497
+    },
+    {
+      "businessUnit": "sign",
+      "metric": "ebitda-margin",
+      "year": 2025,
+      "month": 0,
+      "value": -2.569
+    },
+    {
+      "businessUnit": "group",
+      "metric": "arr",
+      "year": 2023,
+      "month": 0,
+      "value": 34.161
+    },
+    {
+      "businessUnit": "group",
+      "metric": "arr",
+      "year": 2024,
+      "month": 0,
+      "value": 35.5433
+    },
+    {
+      "businessUnit": "group",
+      "metric": "arr",
+      "year": 2025,
+      "month": 0,
+      "value": 42.9903
+    },
+    {
+      "businessUnit": "group",
+      "metric": "arr",
+      "year": 2025,
+      "month": -1,
+      "value": 43.1822
+    },
+    {
+      "businessUnit": "group",
+      "metric": "revenues",
+      "year": 2023,
+      "month": 0,
+      "value": 36.2717
+    },
+    {
+      "businessUnit": "group",
+      "metric": "revenues",
+      "year": 2024,
+      "month": 0,
+      "value": 35.1099
+    },
+    {
+      "businessUnit": "group",
+      "metric": "revenues",
+      "year": 2025,
+      "month": 0,
+      "value": 40.5495
+    },
+    {
+      "businessUnit": "group",
+      "metric": "revenues",
+      "year": 2025,
+      "month": -1,
+      "value": 38.9707
+    },
+    {
+      "businessUnit": "group",
+      "metric": "gross-profit",
+      "year": 2023,
+      "month": 0,
+      "value": 32.0869
+    },
+    {
+      "businessUnit": "group",
+      "metric": "gross-profit",
+      "year": 2024,
+      "month": 0,
+      "value": 31.138
+    },
+    {
+      "businessUnit": "group",
+      "metric": "gross-profit",
+      "year": 2025,
+      "month": 0,
+      "value": 36.4509
+    },
+    {
+      "businessUnit": "group",
+      "metric": "gross-profit",
+      "year": 2025,
+      "month": -1,
+      "value": 34.1284
+    },
+    {
+      "businessUnit": "group",
+      "metric": "gross-profit-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 0.884628
+    },
+    {
+      "businessUnit": "group",
+      "metric": "gross-profit-margin",
+      "year": 2024,
+      "month": 0,
+      "value": 0.886873
+    },
+    {
+      "businessUnit": "group",
+      "metric": "gross-profit-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 0.898925
+    },
+    {
+      "businessUnit": "group",
+      "metric": "gross-profit-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 0.8757
+    },
+    {
+      "businessUnit": "group",
+      "metric": "contribution-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 27.5212
+    },
+    {
+      "businessUnit": "group",
+      "metric": "contribution-margin",
+      "year": 2024,
+      "month": 0,
+      "value": 26.2469
+    },
+    {
+      "businessUnit": "group",
+      "metric": "contribution-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 31.1102
+    },
+    {
+      "businessUnit": "group",
+      "metric": "contribution-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 27.7525
+    },
+    {
+      "businessUnit": "group",
+      "metric": "contribution-margin-pct",
+      "year": 2023,
+      "month": 0,
+      "value": 0.758751
+    },
+    {
+      "businessUnit": "group",
+      "metric": "contribution-margin-pct",
+      "year": 2024,
+      "month": 0,
+      "value": 0.747563
+    },
+    {
+      "businessUnit": "group",
+      "metric": "contribution-margin-pct",
+      "year": 2025,
+      "month": 0,
+      "value": 0.767216
+    },
+    {
+      "businessUnit": "group",
+      "metric": "contribution-margin-pct",
+      "year": 2025,
+      "month": -1,
+      "value": 0.7121
+    },
+    {
+      "businessUnit": "group",
+      "metric": "opex",
+      "year": 2023,
+      "month": 0,
+      "value": 18.7988
+    },
+    {
+      "businessUnit": "group",
+      "metric": "opex",
+      "year": 2024,
+      "month": 0,
+      "value": 17.1469
+    },
+    {
+      "businessUnit": "group",
+      "metric": "opex",
+      "year": 2025,
+      "month": 0,
+      "value": 17.4325
+    },
+    {
+      "businessUnit": "group",
+      "metric": "opex",
+      "year": 2025,
+      "month": -1,
+      "value": 17.727
+    },
+    {
+      "businessUnit": "group",
+      "metric": "ebitda",
+      "year": 2023,
+      "month": 0,
+      "value": 8.7224
+    },
+    {
+      "businessUnit": "group",
+      "metric": "ebitda",
+      "year": 2024,
+      "month": 0,
+      "value": 9.1
+    },
+    {
+      "businessUnit": "group",
+      "metric": "ebitda",
+      "year": 2025,
+      "month": 0,
+      "value": 13.6777
+    },
+    {
+      "businessUnit": "group",
+      "metric": "ebitda",
+      "year": 2025,
+      "month": -1,
+      "value": 10.0255
+    },
+    {
+      "businessUnit": "group",
+      "metric": "ebitda-margin",
+      "year": 2023,
+      "month": 0,
+      "value": 0.240474
+    },
+    {
+      "businessUnit": "group",
+      "metric": "ebitda-margin",
+      "year": 2024,
+      "month": 0,
+      "value": 0.259186
+    },
+    {
+      "businessUnit": "group",
+      "metric": "ebitda-margin",
+      "year": 2025,
+      "month": 0,
+      "value": 0.337309
+    },
+    {
+      "businessUnit": "group",
+      "metric": "ebitda-margin",
+      "year": 2025,
+      "month": -1,
+      "value": 0.2573
+    }
+  ]
+}

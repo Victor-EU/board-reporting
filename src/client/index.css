@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background-color: #f8fafc;
+}
+
+/* Financial table styling */
+.financial-table {
+  @apply w-full border-collapse text-sm;
+}
+
+.financial-table th {
+  @apply bg-slate-100 text-left p-2 font-semibold text-slate-700 border-b border-slate-200;
+}
+
+.financial-table td {
+  @apply p-2 border-b border-slate-100;
+}
+
+.financial-table tr:hover {
+  @apply bg-slate-50;
+}
+
+/* Number formatting */
+.number-positive {
+  @apply text-emerald-600;
+}
+
+.number-negative {
+  @apply text-red-600;
+}
+
+/* KPI card styling */
+.kpi-card {
+  @apply bg-white rounded-xl shadow-sm border border-slate-200 p-6;
+}
+
+.kpi-value {
+  @apply text-3xl font-bold text-slate-900;
+}
+
+.kpi-label {
+  @apply text-sm text-slate-500 mt-1;
+}
+
+.kpi-change {
+  @apply text-sm font-medium mt-2;
+}

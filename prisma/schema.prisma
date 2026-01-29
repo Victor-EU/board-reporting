@@ -1,0 +1,70 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Business Units: PDF Tools, Smallpdf (excl. Sign), Sign.com, Group
+model BusinessUnit {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  slug        String   @unique
+  displayOrder Int     @default(0)
+  createdAt   DateTime @default(now())
+
+  financialData FinancialData[]
+  budgets       Budget[]
+}
+
+// Financial metrics we track
+model Metric {
+  id           String   @id @default(uuid())
+  name         String   @unique  // ARR, Revenue, Gross Profit, etc.
+  slug         String   @unique
+  category     String   // revenue, profit, expense
+  isPercentage Boolean  @default(false)
+  displayOrder Int      @default(0)
+
+  financialData FinancialData[]
+  budgets       Budget[]
+}
+
+// Actual financial data
+model FinancialData {
+  id             String   @id @default(uuid())
+  businessUnitId String
+  metricId       String
+  year           Int
+  month          Int      // 1-12, 0 for YTD, 13 for FY
+  value          Float
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  businessUnit BusinessUnit @relation(fields: [businessUnitId], references: [id])
+  metric       Metric       @relation(fields: [metricId], references: [id])
+
+  @@unique([businessUnitId, metricId, year, month])
+  @@index([businessUnitId])
+  @@index([year, month])
+}
+
+// Budget data for comparison
+model Budget {
+  id             String   @id @default(uuid())
+  businessUnitId String
+  metricId       String
+  year           Int
+  month          Int      // 1-12, 0 for FY budget
+  value          Float
+  createdAt      DateTime @default(now())
+
+  businessUnit BusinessUnit @relation(fields: [businessUnitId], references: [id])
+  metric       Metric       @relation(fields: [metricId], references: [id])
+
+  @@unique([businessUnitId, metricId, year, month])
+  @@index([businessUnitId])
+  @@index([year])
+}
